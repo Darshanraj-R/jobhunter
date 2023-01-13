@@ -1,0 +1,72 @@
+.search_job{
+    position: sticky;
+    top:94px;
+    background-color:white;
+      border: 0;
+      outline: 0;
+      left: 23px;
+    height: 24px;
+  }
+  
+  .search_loc{
+    position: sticky;
+    top:124px;
+    left: 23px;
+    padding: 3px;
+    background-color:white;
+      border: 0;
+      outline: 0;
+    height: 24px;
+    
+  }
+  
+  .filter img{
+    width: 30px;
+    position: sticky;
+  }
+  
+  .span-jobs{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .second-div{
+    width: 1940px;
+  }
+  
+  .block-job{
+    position: fixed;
+    padding-left: 13px;
+    background-color: #accbea;
+    height: 231px;
+    width: 280px;
+    border-radius: 3px;
+  }
+  
+  .block-job label{
+    padding-left: 13px;
+  }
+  
+  .block-job .filter{
+    padding-left: 63px;
+  
+  }
+  
+  .block_details{
+      position: relative;
+    
+  
+  
+  }
+
+  .post-jobs{
+    color: white;
+    position: relative;
+    margin: 0%;
+    padding: 3px;
+    background-color: rgb(31, 72, 236);
+    top: 290px;
+    width: 120px;
+    left: 12px;
+  }

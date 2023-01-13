@@ -1,0 +1,60 @@
+.feed{
+    display:flex; 
+     flex: 0.8;
+    flex-direction: column;
+    margin:0px 30px;
+}
+
+.feed .feedd__input{
+    background-color: white;
+    
+    display: flex;
+    padding: 3px;
+    
+}
+.feed .feedd__input form{
+    display: flex;
+    align-items: center;
+  margin-bottom: 10px;
+  flex: 1;
+}
+
+
+.feed .feedd__input form input[type="text"]{
+  border-radius: 40px;
+  padding: 0px 10px;
+   margin-left: 10px;
+   height: 40px;
+   outline: 0;
+   border: 1px solid;
+   flex: 1;
+}
+.feed .feedd__input form input[type="submit"]{
+   display: none;
+  }
+
+
+
+.feed__options{
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.feed__options .option{
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feed__options .option svg{
+    margin: 4px;
+
+}
